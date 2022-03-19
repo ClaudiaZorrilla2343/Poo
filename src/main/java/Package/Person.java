@@ -9,11 +9,11 @@ import java.util.Date;
  */
 public class Person {
 
-    String name;
-    String lastName1;
-    String lastName2;
-    Date dateBirth;
-    float height;
+    public String name;
+    public String lastName1;
+    public String lastName2;
+    public Date dateBirth;
+    public float height;
 
     /**
      * Este método me muestra el atributo nombre de la clase persona
