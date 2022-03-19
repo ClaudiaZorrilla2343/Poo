@@ -8,22 +8,22 @@ package Package;
 public class BankAccount {
 
     private int accounNumber;
-    protected boolean activate;
+    protected boolean activated;
 
     /**
      * Este método me ayuda a modificar el valor del atributo activar
      * de la clase Cuanta Bancaria
-     * @param activate
+     * @param activated
      */
-    public void setActivate(boolean activate){
-        this.activate = activate;
+    public void setActivated(boolean activated){
+        this.activated = activated;
     }
 
     /**
      * Este método muestra el atributo activar de la clase Cuenta Bancaria
      * @return el valor del atributo activar
      */
-    public Boolean getActivate(){
-        return activate;
+    public Boolean getActivated(){
+        return activated;
     }
 }
