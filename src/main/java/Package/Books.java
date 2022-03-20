@@ -8,8 +8,8 @@ package Package;
 public class Books {
 
     public String category;
-    public int pages;
-    protected  String origin;
+    private int pages;
+    protected String origin;
     public String writer;
     public  String component;
     public int yearPublication;
@@ -41,10 +41,6 @@ public class Books {
 
 
     public static void main(String[] args) {
-
-        /**
-         * Ensayo
-         */
         Books gender = new Books();
         String  knowCategory = gender.getCategory();
         System.out.println(knowCategory);

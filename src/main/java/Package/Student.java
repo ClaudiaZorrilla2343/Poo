@@ -1,5 +1,7 @@
 package Package;
 
+import java.util.Date;
+
 /**
  * Esta clase es del objeto Estudiante.
  *
@@ -8,43 +10,56 @@ package Package;
 public class Student {
 
     private long ID;
-    protected String name;
-    protected String lastName;
-    public int age;
+    private String name;
+    private String lastName;
+    public String dateBirth;
     public int degree;
 
 
     /**
      * Constructor que intancia los atributos.
-     * @param ID
-     * @param name
-     * @param lastName
-     * @param age
-     * @param degree
      */
-    public Student(long ID, String name, String lastName, int age, int degree){
-        this.ID = ID;
-        this.name = name;
-        this.lastName = lastName;
-        this.age = age;
-        this.degree = degree;
+    public Student(){
+        this.ID = 1;
+        this.name = "Claudia";
+        this.lastName = "Zorrilla";
+        this.degree = 11;
+        this.dateBirth = "2004/05/20";
+    }
+
+    /**
+     * Este método muestra el atributo nombre de la clase Estudiante
+     * @return el valor del atributo nombre.
+     */
+    public String getName() {
+        return name;
     }
 
     /**
      * Este método hace posible la modificación del valor del atributo
-     * identificación de las clase Estudiante.
+     * nombre de las clase Estudiante.
      *
-     * @param ID
+     * @param name
      */
-    protected void setID(long ID){
-        this.ID = ID;
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**
-     * Este método muestra el atributo Identificación de la clase Estudiante
-     * @return el valor del atributo identificación.
+     * Este método muestra el atributo apellido de la clase Estudiante
+     * @return el valor del atributo apellido.
      */
-    public Long getID(){
-        return ID;
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * Este método hace posible la modificación del valor del atributo
+     * apellido de las clase Estudiante.
+     *
+     * @param lastName
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }

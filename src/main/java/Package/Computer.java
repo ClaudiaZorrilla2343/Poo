@@ -7,36 +7,18 @@ package Package;
  */
 public class Computer {
 
-    public int RAM;
-    public int icore;
+    private int RAM;
+    private int icore;
     public String brand;
     private long IdProduct;
-    public String processor;
     protected String maker;
-    public float operacionSuma;
+    public float sumOperation;
 
     /**
-     * Constructor por defecto
+     * Constructor por defecto.
      */
+
     public Computer(){
-    }
-
-    /**
-     * Este constructor me instancia todo los atributos de la clase Computadora.
-     * @param RAM
-     * @param icore
-     * @param brand
-     * @param idProduct
-     * @param processor
-     * @param maker
-     */
-    public Computer(int RAM, int icore, String brand, long idProduct, String processor, String maker){
-        this.RAM = RAM;
-        this.icore = icore;
-        this.brand = brand;
-        this.IdProduct = IdProduct;
-        this.processor = processor;
-        this.maker = maker;
     }
 
     /**
@@ -57,10 +39,10 @@ public class Computer {
 
     /**
      * Me permite modificar el atributo operacionSuma.
-     * @param operacionSuma atributo a modificar.
+     * @param sumOperation atributo a modificar.
      */
-    public void setOperacionSuma(int operacionSuma){
-        this.operacionSuma = operacionSuma;
+    public void setSumOperation(int sumOperation){
+        this.sumOperation = sumOperation;
     }
 
     /**
@@ -72,7 +54,7 @@ public class Computer {
      */
     public Float getOperacionSuma(float sumando1, float sumando2){
 
-        return operacionSuma = sumando1 + sumando2;
+        return sumOperation = sumando1 + sumando2;
     }
 
     /**
