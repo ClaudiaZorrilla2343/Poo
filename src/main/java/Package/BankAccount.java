@@ -1,7 +1,7 @@
 package Package;
 
 /**
- *Esta clase es del objeto Cuenta Bancaria
+ *Esta clase es del objeto Cuenta Bancaria.
  *
  * @autor Claudia Zorrilla Rojas
  */
@@ -12,7 +12,7 @@ public class BankAccount {
 
     /**
      * Este método me ayuda a modificar el valor del atributo activar
-     * de la clase Cuanta Bancaria
+     * de la clase Cuanta Bancaria.
      * @param activated
      */
     public void setActivated(boolean activated){
@@ -21,7 +21,7 @@ public class BankAccount {
 
     /**
      * Este método muestra el atributo activar de la clase Cuenta Bancaria
-     * @return el valor del atributo activar
+     * @return el valor del atributo activar.
      */
     public Boolean getActivated(){
         return activated;
