@@ -1,5 +1,10 @@
 package Package;
 
+/**
+ * Esta clase es del objeto Estudiante.
+ *
+ * @autor Claudia Zorrilla Rojas
+ */
 public class Student {
 
     private long ID;
