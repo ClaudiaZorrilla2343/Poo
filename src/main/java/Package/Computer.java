@@ -1,5 +1,7 @@
 package Package;
 
+import com.sun.tools.javac.Main;
+
 public class Computer {
 
     public int RAM;
@@ -38,5 +40,14 @@ public class Computer {
 
         return operacionSuma = sumando1 + sumando2;
     }
-    
+
+    public static void main(String[] args) {
+
+        Computer a = new Computer();
+
+        float s = a.getOperacionSuma(5,8);
+
+        System.out.println(s);
+    }
+
 }
